@@ -1,0 +1,32 @@
+#modalCard {
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.712);
+    opacity: 0;
+    transition: opacity .7s;
+    pointer-events:none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    width: 25%;
+    background: gray;
+    gap: 1vw;
+    padding: 3vw;
+}
+
+#cardText {
+    font-size: calc(1rem + 1vw);
+    font-weight: 1000;
+}
